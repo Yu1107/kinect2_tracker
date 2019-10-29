@@ -10,7 +10,7 @@
 int main(int argc, char** argv)
 {
 //initiate ros skeleton_tracker
-  ros::init(argc, argv, "skeleton_tracker");
+  ros::init(argc, argv, "kinect2_tracker_node");
 
   k2_tracker* skeleton_tracker = new k2_tracker();
 
